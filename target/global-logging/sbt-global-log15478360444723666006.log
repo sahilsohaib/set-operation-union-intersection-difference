@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.7 (Oracle Corporation Java 20.0.2)
+[debug] Load.defaultLoad until apply took 284.0645ms
+[debug]           Load.loadUnit: plugins took 272.5805ms
+[debug]           Load.loadUnit: defsScala took 0.6013ms
+[debug] [Loading] Scanning directory C:\Users\sahil\IdeaProjects\set_oparations_Union_intersection_difference\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\sahil\IdeaProjects\set_oparations_Union_intersection_difference\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 36.9897 ms
+[debug]               Load.resolveProject(set_oparations_union_intersection_difference-build) took 140.1118ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id set_oparations_union_intersection_difference-build, base: C:\Users\sahil\IdeaProjects\set_oparations_Union_intersection_difference\project, plugins: List(<none>))) took 211.8109ms
+[debug] [Loading] Done in C:\Users\sahil\IdeaProjects\set_oparations_Union_intersection_difference\project, returning: (set_oparations_union_intersection_difference-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 254.611199ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.5952ms
+[debug]         Load.loadUnit(file:/C:/Users/sahil/IdeaProjects/set_oparations_Union_intersection_difference/project/, ...) took 541.0531ms
+[debug]       Load.apply: load took 852.552799ms
+[debug]       Load.apply: resolveProjects took 8.3615ms
+[debug]       Load.apply: finalTransforms took 99.8774ms
+[debug]       Load.apply: config.delegates took 18.740299ms
+[debug]       Load.apply: Def.make(settings)... took 630.13ms
+[debug]       Load.apply: structureIndex took 149.882999ms
+[debug]       Load.apply: mkStreams took 1.9969ms
+[info] loading project definition from C:\Users\sahil\IdeaProjects\set_oparations_Union_intersection_difference\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2952.6866ms
+[debug]     Load.loadUnit: defsScala took 0.0049ms
+[debug] [Loading] Scanning directory C:\Users\sahil\IdeaProjects\set_oparations_Union_intersection_difference
+[debug]       Load.loadUnit: mkEval took 7.1279ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.596601 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 4.0822ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\sahil\IdeaProjects\set_oparations_Union_intersection_difference, plugins: List(<none>))) took 8.243201ms
+[debug] [Loading] Done in C:\Users\sahil\IdeaProjects\set_oparations_Union_intersection_difference, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 349.4534ms
+[debug]     Load.loadUnit: cleanEvalClasses took 39.1904ms
+[debug]   Load.loadUnit(file:/C:/Users/sahil/IdeaProjects/set_oparations_Union_intersection_difference/, ...) took 3344.7623ms
+[debug] Load.apply: load took 3413.4192ms
+[debug] Load.apply: resolveProjects took 0.1385ms
+[debug] Load.apply: finalTransforms took 16.958ms
+[debug] Load.apply: config.delegates took 0.4473ms
+[debug] Load.apply: Def.make(settings)... took 97.6628ms
+[debug] Load.apply: structureIndex took 37.7799ms
+[debug] Load.apply: mkStreams took 0.0035ms
+[info] set current project to set_oparations_Union_intersection_difference (in build file:/C:/Users/sahil/IdeaProjects/set_oparations_Union_intersection_difference/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-150bf3dece44b19638db
+[debug] Writing bsp connection file
+[info] started sbt server
